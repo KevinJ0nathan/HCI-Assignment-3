@@ -13,6 +13,7 @@ body {
 
 h1, h2, p {
     font-family: 'Lato', sans-serif;
+    font-size: 2vw;
 }
 
 .maininfo {
@@ -29,6 +30,7 @@ h1, h2, p {
     background-color: #333;
     color: white;
     padding: 10px;
+    
 }
 
 .pfp {
@@ -83,7 +85,7 @@ h1, h2, p {
 }
 
 .programmingskills {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     width: 50%;
     margin: 0 auto;
     border: 2px solid black;
@@ -94,7 +96,7 @@ h1, h2, p {
 }
 
 #python, #html, #css {
-    font-size: 4em;
+    font-size: 4vw;
     margin: 20px 20px;
 }
 
@@ -109,13 +111,13 @@ h1, h2, p {
     }
 
     #python, #html, #css {
-        font-size: 3em;
+        font-size: 10vw;
     }
 }
     
 
 .education {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     width: 50%;
     margin: 0 auto;
     border: 2px solid black;
@@ -127,7 +129,7 @@ h1, h2, p {
 
 #bss, #biu {
     max-width: 100%;
-    width: 450px;
+    width: 30vw;
     height: auto;
     border-radius: 2.5%;
     border: 2px solid black;
@@ -149,12 +151,12 @@ h1, h2, p {
     }
 
     #bss, #biu {
-        width: 100%;
+        width: 30vw;
     }
 }
 
 .hobbies{
-    font-size: 1.5em;
+    font-size: 1.5vw;
     width: 50%;
     margin: 0 auto;
     border: 2px solid black;
@@ -163,17 +165,16 @@ h1, h2, p {
     text-align: center;
     box-sizing: border-box;
 }
-.anime-container {
-    display: flex;
+.anime-container, .valorant-container {
     align-items: center;
     justify-content: flex-start;
     max-width: 100%;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
 
-#gojo {
-    max-width: 100%;
+#gojo, #jett {
+    max-width: 30vw;
     width: 100%;
     height: auto;
     border-radius: 2.5%;
@@ -187,21 +188,14 @@ h1, h2, p {
         width: 80%;
     }
 
-    #gojo {
+    #gojo, #jett {
         width: 100%;
     }
 }
 
 
-#jett{
-    width: 50%;
-    height: auto;
-    border-radius: 2.5%;
-}
 
-@media screen and (max-width: 768px) {
-    #jett{
-        width: 80%;
-    } 
 
-}
+
+
+
