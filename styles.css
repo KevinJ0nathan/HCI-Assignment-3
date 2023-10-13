@@ -1,0 +1,207 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(https://wallpapers.com/images/hd/black-and-white-aesthetic-pc-gzxn2i4ot7ccqzyl.jpg);
+    background-size: cover;
+}
+
+
+h1, h2, p {
+    font-family: 'Lato', sans-serif;
+}
+
+.maininfo {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.header1 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.pfp {
+    display:flex;
+    width: 15vw;
+    border: 3px solid #292929;
+    border-radius: 5%;
+    max-width: 100%;
+    background-color: black;
+}
+
+
+.sosmed{
+    display:flex;
+    justify-content: center;
+    padding: 5% 15% 15% 50%;
+    margin-top: -30%;
+}
+
+.sosmed a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 2vw; 
+    margin: 0 10px; 
+    transition: color 0.3s;
+    
+}
+
+.sosmed a:hover {
+    color: #007bff; 
+}
+
+@media screen and (max-width: 768px) {
+    .maininfo {
+        width: 80%; 
+    }
+
+    .pfp {
+
+        width: 50%; 
+        margin: 5% 25% ; 
+    }
+
+    .sosmed {
+        padding: 5% 5% 10% 5%; 
+        margin-top: -1%; 
+    }
+
+    .sosmed a {
+        font-size: 3vw; 
+    }
+}
+
+.programmingskills {
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#python, #html, #css {
+    font-size: 4em;
+    margin: 20px 20px;
+}
+
+.programmingskills i:hover {
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .programmingskills {
+        width: 80%;
+    }
+
+    #python, #html, #css {
+        font-size: 3em;
+    }
+}
+    
+
+.education {
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#bss, #biu {
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+    border-radius: 2.5%;
+    border: 2px solid black;
+}
+
+.binusschoolserpong a, .binusinternationaluniversity a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.binusschoolserpong a:hover, .binusinternationaluniversity a:hover {
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .education {
+        width: 80%;
+    }
+
+    #bss, #biu {
+        width: 100%;
+    }
+}
+
+.hobbies{
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.anime-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#gojo {
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+    border-radius: 2.5%;
+}
+
+@media screen and (max-width: 768px) {
+    .anime-container {
+        width: 80%;
+    }
+    .hobbies {
+        width: 80%;
+    }
+
+    #gojo {
+        width: 100%;
+    }
+}
+
+
+#jett{
+    width: 40%;
+    height: auto;
+    border-radius: 2.5%;
+}
+
+@media screen and (max-width: 768px) {
+    #jett{
+        width: 80%;
+    } 
+
+}
